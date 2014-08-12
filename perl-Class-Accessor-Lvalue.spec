@@ -8,7 +8,7 @@
 Summary:	Class::Accessor::Lvalue - create Lvalue accessors
 Name:		perl-Class-Accessor-Lvalue
 Version:	0.11
-Release:	0.1
+Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -17,6 +17,8 @@ URL:		http://search.cpan.org/dist/Class-Accessor-Lvalue/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl-Class-Accessor
+BuildRequires:	perl-Want
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
