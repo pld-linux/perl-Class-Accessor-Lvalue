@@ -4,7 +4,6 @@
 #
 %define		pdir	Class
 %define		pnam	Accessor-Lvalue
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Accessor::Lvalue - create Lvalue accessors
 Name:		perl-Class-Accessor-Lvalue
 Version:	0.11
